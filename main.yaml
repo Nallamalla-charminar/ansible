@@ -1,0 +1,9 @@
+---
+
+#main.yaml
+- name: Main yaml file
+  hosts: webservers
+  gather_facts: no
+
+  tasks:
+  - include: common.yaml
